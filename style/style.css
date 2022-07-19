@@ -1,0 +1,63 @@
+/* style-sheet-start */
+
+/* section container-start */
+/* google-font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kantumruy+Pro:ital,wght@1,300&family=Lobster&family=Poppins:wght@500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container {
+    background-color: #161616;
+    width: 1321px;
+    height: 646px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    border-radius: 20px;
+
+
+}
+
+.container img {
+    position: absolute;
+    width: 581px;
+    margin-top: 106px;
+    left: 801px;
+
+}
+
+.world-cup-banner h1 {
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.world-cup-banner p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    width: 187px;
+    height: 56px;
+    left: 246px;
+    top: 529px;
+    background-color: #DD0000;
+    border-radius: 5px;
+}
