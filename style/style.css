@@ -7,20 +7,19 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
-    margin: 0;
+    margin-top: 40px;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
+
 
 .container {
     background-color: #161616;
-    width: 1321px;
-    height: 646px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     padding: 100px;
@@ -32,7 +31,7 @@ main {
 .container img {
     position: absolute;
     width: 581px;
-    margin-top: 106px;
+    margin-top: 83px;
     left: 801px;
 
 }
@@ -58,6 +57,14 @@ main {
     height: 56px;
     left: 246px;
     top: 529px;
+    /* transition: all .2s ease-in-out; */
     background-color: #DD0000;
     border-radius: 5px;
+}
+
+/* section-2-start */
+.blog {
+    border: 2px solid lightgray;
+    display: grid;
+    grid-template-columns: 3, 1fr;
 }
