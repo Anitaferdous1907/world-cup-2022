@@ -108,6 +108,12 @@ main {
 }
 
 /* start-live-blog-section */
+.watch {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
 
 .live-blog-banner {
     width: 311px;
