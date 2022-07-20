@@ -115,6 +115,10 @@ main {
 
 }
 
+.box-button a {
+    text-decoration: none;
+}
+
 #box-button {
     text-decoration: none;
     color: white;
