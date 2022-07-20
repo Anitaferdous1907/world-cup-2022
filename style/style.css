@@ -98,16 +98,8 @@ main {
 }
 
 .box-button {
-    /* display: flex;
-    align-items: center;
-    border: 2px solid #FFFFFF;
-    border-radius: 5px;
-    width: 252px;
-    height: 64px;
-    margin: 10px;
-    text-align: center; */
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     width: 187px;
     height: 56px;
@@ -115,22 +107,14 @@ main {
     top: 529px;
     margin-top: 50px;
     margin: 10px;
+    padding-top: 20px;
     text-align: center;
-    /* transition: all .2s ease-in-out; */
-    background-color: #fafafa;
+    background-color: #ffffff;
     border-radius: 5px;
 
 }
 
 #box-button {
-    /* display: flex;
-    align-items: center;
-    border: 2px solid #FFFFFF;
-    border-radius: 5px;
-    width: 252px;
-    height: 64px;
-    margin: 10px;
-    text-align: center; */
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -139,9 +123,9 @@ main {
     left: 246px;
     top: 529px;
     margin-top: 50px;
+    padding-top: 20px;
     margin: 10px;
     text-align: center;
-    /* transition: all .2s ease-in-out; */
     background-color: #fd0202;
     border-radius: 5px;
 
