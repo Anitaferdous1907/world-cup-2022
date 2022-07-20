@@ -122,4 +122,25 @@ main {
     margin-left: 20px;
 }
 
-.live-blog-title {}
+.live-blog-BUTTON {
+    border: 2px solid lightgray;
+    width: 40px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.live-text {
+    font-weight: 700;
+    font-size: 13px;
+    color: #161616;
+}
+
+.live-icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fa-comment-dots {
+    margin-left: 20px;
+
+}
