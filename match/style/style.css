@@ -245,3 +245,69 @@ footer p {
     margin: 10px;
 
 }
+
+@media only screen and (max-width:688px) {
+
+    .container {
+        width: 100%;
+    }
+
+    /* .world-cup-banner img {
+        width: 100%;
+    } */
+
+    .world-cup-banner,
+    {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+
+}
+
+.watch {
+    flex-direction: column;
+    background-color: blueviolet;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.footer-info {
+    flex-direction: column;
+    background-color: blueviolet;
+}
+}
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+        background-color: yellow;
+    }
+
+    .side-option-bar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side-option-boxs {
+        display: flex;
+
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .watch {
+        grid-template-columns: repeat(2, 1fr);
+        background-color: yellow;
+    }
+
+    /* .view {
+        display: revert;
+    } */
+
+    .footer-info {
+        flex-wrap: wrap;
+        background-color: yellow;
+    }
+
+
+}
