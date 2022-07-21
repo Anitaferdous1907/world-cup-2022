@@ -7,6 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+    min-height: 100vh;
     margin-top: 40px;
     min-height: 100vh;
 }
@@ -304,7 +305,8 @@ footer p {
         display: revert;
     } */
 
-    .footer-info {
+    .footer-info,
+    .socialmedia {
         flex-wrap: wrap;
         background-color: yellow;
     }

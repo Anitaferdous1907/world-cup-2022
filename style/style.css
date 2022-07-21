@@ -8,7 +8,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
     margin-top: 40px;
-    min-height: 100vh;
+
 }
 
 main {
@@ -31,7 +31,7 @@ main {
 
 .container img {
     width: 581px;
-    margin-top: 83px;
+    margin-top: px;
     left: 801px;
 
 }
@@ -285,7 +285,8 @@ footer p {
     grid-template-columns: repeat(1, 1fr);
 }
 
-.footer-info {
+.footer-info,
+.socialmedia {
     flex-direction: column;
     background-color: blueviolet;
 }
@@ -319,7 +320,8 @@ footer p {
         display: revert;
     }
 
-    .footer-info {
+    .footer-info,
+    .socialmedia {
         flex-wrap: wrap;
         background-color: yellow;
     }
