@@ -275,20 +275,20 @@ footer p {
     {
     display: flex;
     flex-direction: column;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 
 }
 
 .watch {
     flex-direction: column;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     grid-template-columns: repeat(1, 1fr);
 }
 
 .footer-info,
 .socialmedia {
     flex-direction: column;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 }
 
@@ -313,7 +313,7 @@ footer p {
 
     .watch {
         grid-template-columns: repeat(2, 1fr);
-        background-color: yellow;
+        /* background-color: yellow; */
     }
 
     .view {
@@ -323,7 +323,7 @@ footer p {
     .footer-info,
     .socialmedia {
         flex-wrap: wrap;
-        background-color: yellow;
+        /* background-color: yellow; */
     }
 
 
