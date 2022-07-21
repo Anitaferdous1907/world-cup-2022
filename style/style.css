@@ -71,7 +71,7 @@ main {
     left: 246px;
     top: 529px;
 
-    background-color: orange;
+    background-color: #DD0000;
     border-radius: 5px;
 }
 
@@ -193,7 +193,6 @@ main {
 
 .view {
     display: flex;
-    background-color: blue;
     justify-content: center;
     align-items: center;
     display: none;
