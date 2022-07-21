@@ -30,7 +30,6 @@ main {
 }
 
 .container img {
-    position: absolute;
     width: 581px;
     margin-top: 83px;
     left: 801px;
@@ -233,5 +232,36 @@ footer p {
 
 .icon-3 {
     margin: 10px;
+
+}
+
+/* media queries */
+
+
+@media only screen and (max-width:688px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .world-cup-banner img {
+        width: 100%;
+    }
+
+    .world-cup-banner,
+    .live-blogs {
+        display: flex;
+        flex-direction: column;
+        background-color: blueviolet;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+        background-color: yellow;
+    }
 
 }
