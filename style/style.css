@@ -264,4 +264,16 @@ footer p {
         background-color: yellow;
     }
 
+    .side-option-boxs {
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .watch {
+        grid-template-columns: repeat(2, 1fr);
+        background-color: yellow;
+    }
+
+
 }
